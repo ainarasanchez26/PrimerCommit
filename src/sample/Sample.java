@@ -37,6 +37,8 @@ public class Sample {
 		System.out.println("La asignatura a la que mas tiempo he dedicado es "
 				+ asignaturaMax + " con " + maxHoras + " horas");
 		
+		System.out.println("Esta semana no he podido hacer mucho pero viva ALED");
+		
 
 	}
 	
