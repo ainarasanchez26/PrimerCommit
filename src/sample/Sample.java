@@ -40,6 +40,7 @@ public class Sample {
 		System.out.println("Esta semana no he podido hacer mucho pero viva ALED");
 		
 		System.out.println(metodos.calculaPi(0.01));
+		 System.out.println(metodos.calcularFactorial(5));
 
 	}
 	
