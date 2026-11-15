@@ -21,5 +21,15 @@ public class metodos {
 	    }
 	    return factorial;
 	}
+	
+	public static int puntuacionSupervivencia(int[] puntos) {
+		int total = 0;
+
+		for (int i = 0; i < puntos.length; i++) {
+			total = total + puntos[i];
+		}
+
+		return total;
+	}
 
 }

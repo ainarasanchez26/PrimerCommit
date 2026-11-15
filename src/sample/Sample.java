@@ -40,7 +40,11 @@ public class Sample {
 		System.out.println("Esta semana no he podido hacer mucho pero viva ALED");
 		
 		System.out.println(metodos.calculaPi(0.01));
-		 System.out.println(metodos.calcularFactorial(5));
+		System.out.println(metodos.calcularFactorial(5));
+		 
+		int[] rick = {8, 9, 7, 10};
+
+		System.out.println("Puntuacion de supervivencia de Rick en las primeras 4 temporadas de TWD: "+ metodos.puntuacionSupervivencia(rick) + " sobre "+ rick.length*10);
 
 	}
 	
