@@ -31,5 +31,17 @@ public class metodos {
 
 		return total;
 	}
+	public static int totalSuministros(int[] suministros) {
+		if (suministros == null || suministros.length == 0) {
+			return 0;
+		}
+		return totalSuministrosRecursivo(suministros, 0);
+	}
 
+	private static int totalSuministrosRecursivo(int[] suministros, int posicion) {
+		if (posicion == suministros.length) {
+			return 0;
+		}
+		return suministros[posicion] + totalSuministrosRecursivo(suministros, posicion + 1);
+	}
 }

@@ -45,7 +45,11 @@ public class Sample {
 		int[] rick = {8, 9, 7, 10};
 
 		System.out.println("Puntuacion de supervivencia de Rick en las primeras 4 temporadas de TWD: "+ metodos.puntuacionSupervivencia(rick) + " sobre "+ rick.length*10);
+		
+		//-----------------
+		int[] suministros = {4, 7, 2, 6, 3};
 
+		System.out.println("Suministros encontrados: " + metodos.totalSuministros(suministros));
 	}
 	
 
